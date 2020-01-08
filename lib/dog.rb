@@ -5,8 +5,8 @@ class Dog
     @name = name
   end
   
-  def name(dog_name)
-    "#{dog_name}".strip
+  def name
+    "#{name}".strip
   end
   
 end
